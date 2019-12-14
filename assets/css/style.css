@@ -1,0 +1,71 @@
+.dashboard {
+    background-color: #333333;
+    color: white;
+    padding: 16px 0px;
+    font-size: 30px;
+    font-family: 'Solway', serif;
+}
+
+.sidebar {
+    background-color: #d9d9d9;
+}
+
+.citytab {
+    width: 90% !important;
+}
+
+#city {
+    font-family: 'Solway', serif;
+}
+
+.five {
+    font-family: 'Solway', serif;
+}
+.card-text {
+    width: 100% !important;
+}
+
+.fas {
+    padding-left: 10px;
+}
+
+.green {
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #009933;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.yellow {
+    border-radius: 5px;
+    background-color: #f9f91f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.orange {
+    border-radius: 5px;
+    background-color: #ff9933;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.red {
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #f90606;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.purple {
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #8c1aff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.days {
+    background-color: #b3d9ff !important;
+}
+
+.card-text {
+    color: #595959;
+}
