@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> Wealther Dashboard</title>
+
+    <!---- CSS ---->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!---- JQ --->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+    <script src="moment.min.js"></script>
+    <script src="javascript.js"></script>
+
+    <div>
+        <p class="dashboard text-center mb-0">
+            Wealther Dashboard
+        </p>
+    </div>
+    <div class="container p-0 m-0">
+        <div class="row">
+            <div class="col-md-4 sidebar p-0">
+                <nav id="side_bar">
+                    <form class="form-inline ml-4 mb-3">
+                        <input class="form-control mr-sm-2 mt-3 pr-5" id="search" placeholder="Search for city">
+                        <button class="btn btn-info mt-3" id="submit">
+                            <i class="fa fa-search"></i></button>
+                    </form>
+                    <div class="citytab btn-group-vertical ml-4 pb-3 pl-0">
+
+                    </div>
+                </nav>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 mt-3 p-0" id="wealther">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2 class="card-title" id="city">
+                                        Current Day Weather
+                                    </h2>
+                                    <h6 class="card-subtitle my-2 text-muted" id="details" style="display: none;">
+                                        <p id="temp">Tempreture:</p>
+                                        <p id="humi">Humidity:</p>
+                                        <p id="wind">Wind Speed:</p>
+                                        <p id="uv"></p>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mt-4 five">
+                        <p>5 days forcast:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="forecast">
+                            <div class="wrapper">
+                                <div class="row futureW">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
